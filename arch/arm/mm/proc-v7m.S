@@ -46,7 +46,7 @@ ENDPROC(cpu_v7m_reset)
  *	IRQs are already disabled.
  */
 ENTRY(cpu_v7m_do_idle)
-	wfi
+	/*wfi*/
 	ret	lr
 ENDPROC(cpu_v7m_do_idle)
 
